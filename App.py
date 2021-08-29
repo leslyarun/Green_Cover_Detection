@@ -213,7 +213,7 @@ def Map():
     folium.Map.add_ee_layer = add_ee_layer
 
     # Can choose between Lat-Long, or just typing the address
-    options = ["Lat-Long", "Address"]
+    options = ["Address", "Lat-Long"]
     selection = st.selectbox("Select Option", options)
 
     if selection == 'Address':
@@ -433,7 +433,7 @@ def Plant_Trees_Near_Me():
     
         st.title('Region to plant trees')
 
-        options = ["Lat-Long", "Address"]
+        options = ["Address", "Lat-Long"]
         selection = st.selectbox("Select Option", options)
 
         if selection == 'Address':
@@ -545,7 +545,7 @@ def main():
     if choice == 'Green Cover Detection':
         st.subheader("Green Cover Detection")
 
-        options = ["Upload Image", "Map"]
+        options = ["Map", "Upload Image"]
         selection = st.selectbox("Select Option", options)
 
         if selection == 'Upload Image':
