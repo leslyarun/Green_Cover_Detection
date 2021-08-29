@@ -2,7 +2,6 @@ brotli==1.0.9
 cryptography==3.4.8
 Cython==0.29.24
 docutils==0.17.1
-ee==0.4
 folium==0.12.1
 geopy==2.2.0
 importlib_metadata==4.7.1
@@ -25,5 +24,7 @@ selenium==3.141.0
 streamlit==0.87.0
 streamlit_folium==0.4.0
 typing_extensions==3.10.0.0
-wincertstore==0.2.1
+wincertstore
 zipp==3.5.0
+earthengine-api
+opencv-python
