@@ -28,3 +28,4 @@ wincertstore
 zipp==3.5.0
 earthengine-api
 opencv-python
+openpyxl
